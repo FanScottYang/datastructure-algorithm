@@ -15,8 +15,15 @@ public class DisjointSet<E> implements Serializable {
 
 	transient HashMap<E, E/* parent */> elementData = new HashMap<E, E>();
 
-	// TODO: add a remove method to remove an element. Need to rebuild the
-	// relationship.
+	/**
+	 * to remove an element. Need to rebuild the relationship.
+	 * 
+	 * @return the removed element
+	 */
+	public E remove(E e) {
+		// TODO: add a remove method
+		return null;
+	}
 
 	/**
 	 * Use "path compression" method to keep tree balanced. The other method is
